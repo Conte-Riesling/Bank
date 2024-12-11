@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Neobank{% endblock %}
+
+{% block content %}
+    <h1>Neobank</h1>
+    <p>
+        Welcome to VarBank. You can <a href="{% url 'edit' %}">edit your VarBank profile</a>
+or <a href="{% url 'password_change' %}">change your password</a>.
+    </p>
+{% endblock %}
